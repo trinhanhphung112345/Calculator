@@ -3,7 +3,6 @@ let operand1 = ''; // lưu giá trị của các số
 let operand2 = '';
 let opt; // lưu toán tử 
 
-
 // Định nghĩa hàm 
 function Button123(btn) { // đặt tên hàm là Button123
 // nội dung hàm
@@ -24,7 +23,6 @@ if( isNaN(pressedValue)) // kiểm tra isNaN = giá trị người dùng kích v
         ResultInput.value = "";
         return;
 
-
     }
     if( pressedValue == '=' ) // Thuc hien tính toán 
     {
@@ -36,15 +34,12 @@ if( isNaN(pressedValue)) // kiểm tra isNaN = giá trị người dùng kích v
         operand2= " ";
         opt = undefined; // có thể thực hiện tính toán lại 
 
-
     }
     else {
             otp = pressedValue ;// ngdung nhấn vào giá trị + - * / 
 
 
-
     }
-
 
 }
 else
@@ -54,21 +49,16 @@ else
                 operand2 += pressedValue;
                 ResultInput.value = operand2;
 
-
         }else
         {
                 operand1 += pressedValue;
                 ResultInput.value = operand1; // hiển thị giá trị vào Resultinput
 
-
         }
 
-
 }
 
-
 }
-
 
 // hàm perform thực hiện tất cá phép tính chuyền vao
 
@@ -96,9 +86,9 @@ switch(otor)
 
 
 
+}
+
 
 }
 
 
-
-}
